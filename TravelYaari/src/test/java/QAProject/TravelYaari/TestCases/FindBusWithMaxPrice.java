@@ -14,6 +14,7 @@ import QAProject.TravelYaari.TestBase;
 
 public class FindBusWithMaxPrice extends TestBase{
 	SearchBus searchbus = new SearchBus();
+	
 	@Test
 	public void getMaximumPriceDetails() throws InterruptedException {
 		int max = Integer.MIN_VALUE;
@@ -38,8 +39,6 @@ public class FindBusWithMaxPrice extends TestBase{
 			System.out.println("Exception in main");
 		}
 	}
-	
-	
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
