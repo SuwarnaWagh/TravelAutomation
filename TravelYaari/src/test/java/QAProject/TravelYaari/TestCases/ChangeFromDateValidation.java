@@ -29,6 +29,6 @@ public class ChangeFromDateValidation extends TestBase {
 	}
 	@AfterTest
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 }
