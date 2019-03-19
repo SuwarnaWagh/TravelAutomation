@@ -23,6 +23,7 @@ public class ChangeFromDateValidation extends TestBase {
 		Thread.sleep(2000);
 		searchbus.clickOnFromDate(driver, "26");
 		searchbus.clickOnSearchBus(driver);
+		Thread.sleep(2000);
 		searchbus.getOperatorDetailsCountResult(driver);
 		ArrayList<String> opratorName = searchbus.getOperatorDetails(driver);
 		System.out.println(opratorName);
