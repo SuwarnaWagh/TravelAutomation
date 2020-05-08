@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="QAProject.TravelYaari.TestCases.ChangeFromDateValidation">
+      <class name="ParaBank.TestCases.HomePage_TC02">
         <methods>
-          <include name="tearDown"/>
-          <include name="selectDate"/>
+          <include name="afterMethod"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="TitleOfThePageClickingOnPARABANKlogo"/>
         </methods>
-      </class> <!-- QAProject.TravelYaari.TestCases.ChangeFromDateValidation -->
+      </class> <!-- ParaBank.TestCases.HomePage_TC02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

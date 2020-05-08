@@ -15,10 +15,11 @@ public class HomePage_TC02 extends BaseClass{
 	ConfigFileReader configFileReader;
 	
 	@Test
-	public void TitleOfThePageClickingOnPARABANKlogo() {
+	public void TitleOfThePageClickingOnPARABANKlogo() throws InterruptedException {
 		configFileReader= new ConfigFileReader();
 		driver.get(configFileReader.getApplicationUrl());
 		driver.findElement(By.cssSelector("img[title='ParaBank']")).click();
+		Thread.sleep(3000);
 		titleDisplayed = driver.getTitle();
 		System.out.println("Title is "+titleDisplayed);
 	}

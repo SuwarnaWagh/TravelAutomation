@@ -1,7 +1,5 @@
 package ParaBank.TestCases;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,13 +19,15 @@ public class HomePage_TC01 extends BaseClass{
 	ConfigFileReader configFileReader;
 	
 	@Test
-	public void Verify_PARA_BANK_logo_is_present_with_the_caption() {
+	public void Verify_PARA_BANK_logo_is_present_with_the_caption() throws InterruptedException {
 		configFileReader = new ConfigFileReader();
 		driver.get(configFileReader.getApplicationUrl());
 		WebElement logo = driver.findElement(By.cssSelector("img[title='ParaBank']"));
+		Thread.sleep(3000);
 		isDisplayed = logo.isDisplayed();
 		caption = driver.findElement(By.cssSelector("p.caption")).getText();
 		System.out.println("Result is " + isDisplayed + " & caption is " + caption);
+		
 	}
 
   @AfterMethod

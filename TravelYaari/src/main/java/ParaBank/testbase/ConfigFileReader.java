@@ -47,5 +47,20 @@ public class ConfigFileReader {
 		if(url != null) return url;
 		else throw new RuntimeException("url not specified in the Configuration.properties file.");
 	}
-	
+	public String getElementScreenshotPath() {
+		String elePath = properties.getProperty("elementscreenshotpath");
+		if (elePath != null) {
+			return elePath;
+		} else {
+			throw new RuntimeException("elementscreenshotpath not specified in the Configuration.properties file.");
+		}
+	}
+	public String getPageScreenshotPath() {
+		String pagePath = properties.getProperty("pagescreenshotpath");
+		if (pagePath != null) {
+			return pagePath;
+		} else {
+			throw new RuntimeException("pagescreenshotpath not specified in the Configuration.properties file.");
+		}
+	}
 }
