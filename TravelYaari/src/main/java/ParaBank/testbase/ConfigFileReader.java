@@ -9,7 +9,8 @@ import java.util.Properties;
 public class ConfigFileReader {
 	
 	private Properties properties;
-	private final String propertyFilePath = "I:\\GitRepository\\TravelAutomation\\TravelYaari\\Configs\\Configuation.properties";
+	private final String propertyFilePath = "Configs//Configuation.properties";
+	//private final String propertyFilePath = "I:\\GitRepository\\TravelAutomation\\TravelYaari\\Configs\\Configuation.properties";
 			 //I:\GitRepository\TravelAutomation\TravelYaari\Configs
 	public ConfigFileReader(){
 		BufferedReader reader;

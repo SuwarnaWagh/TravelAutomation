@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--909976479\testng-customsuite.xml</span>
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1792115052\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,10 +102,39 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ParaBank.TestCases.HomePage_TC02" hash-for-method="TitleOfThePageClickingOnPARABANKlogo">TitleOfThePageClickingOnPARABANKlogo</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ParaBank.TestCases.LoginValidationTest" hash-for-method="ValidUserNamePassword">ValidUserNamePassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ParaBank.TestCases.LoginValidationTest" hash-for-method="BlankUserNamePassword">BlankUserNamePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ParaBank.TestCases.LoginValidationTest" hash-for-method="InvalidUserNamePassword">InvalidUserNamePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ParaBank.TestCases.LoginValidationTest" hash-for-method="OnlyPassword">OnlyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ParaBank.TestCases.LoginValidationTest" hash-for-method="OnlyUsername">OnlyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -120,57 +149,22 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">ParaBank.TestCases.HomePage_TC02</span>
+              <span class="class-name">ParaBank.TestCases.LoginValidationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TitleOfThePageClickingOnPARABANKlogo">
-                  </a> <!-- TitleOfThePageClickingOnPARABANKlogo -->
-                  <span class="method-name">TitleOfThePageClickingOnPARABANKlogo</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: $ is not defined
-  (Session info: chrome=79.0.3945.88)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-OL5560M&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\Admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: accept, unhandledPromptBehavior: accept, version: 79.0.3945.88, webStorageEnabled: true}
-Session ID: c8bf0cb3b8487a0d67ecc58160c2b1fa
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:485)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy8.executeScript(Unknown Source)
-	at ru.yandex.qatools.ashot.util.JsCoords.findCoordsWithJquery(JsCoords.java:30)
-	at ru.yandex.qatools.ashot.coordinates.JqueryCoordsProvider.ofElement(JqueryCoordsProvider.java:13)
-	at ru.yandex.qatools.ashot.coordinates.CoordsProvider.ofElements(CoordsProvider.java:21)
-	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:115)
-	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:132)
-	at ParaBank.utilities.TestUtility.takeScreenshotOfElement(TestUtility.java:35)
-	at ParaBank.utilities.EventDriver.afterFindBy(EventDriver.java:94)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy7.afterFindBy(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
-	at ParaBank.TestCases.HomePage_TC02.TitleOfThePageClickingOnPARABANKlogo(HomePage_TC02.java:21)
+                  <a name="ValidUserNamePassword">
+                  </a> <!-- ValidUserNamePassword -->
+                  <span class="method-name">ValidUserNamePassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [ParaBank | Accounts Overview] but found [ParaBank | Error]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at ParaBank.TestCases.LoginValidationTest.ValidUserNamePassword(LoginValidationTest.java:68)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -202,10 +196,46 @@ Session ID: c8bf0cb3b8487a0d67ecc58160c2b1fa
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ParaBank.TestCases.LoginValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BlankUserNamePassword">
+                  </a> <!-- BlankUserNamePassword -->
+                  <span class="method-name">BlankUserNamePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidUserNamePassword">
+                  </a> <!-- InvalidUserNamePassword -->
+                  <span class="method-name">InvalidUserNamePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlyPassword">
+                  </a> <!-- OnlyPassword -->
+                  <span class="method-name">OnlyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnlyUsername">
+                  </a> <!-- OnlyUsername -->
+                  <span class="method-name">OnlyUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--909976479\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1792115052\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -214,7 +244,7 @@ Session ID: c8bf0cb3b8487a0d67ecc58160c2b1fa
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ParaBank.TestCases.HomePage_TC02&quot;/&gt;
+      &lt;class name=&quot;ParaBank.TestCases.LoginValidationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -254,16 +284,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TitleOfThePageClickingOnPARABANKlogo')
-data.setCell(0, 2, 'ParaBank.TestCases.HomePage_TC02')
-data.setCell(0, 3, 6152);
+data.setCell(0, 1, 'BlankUserNamePassword')
+data.setCell(0, 2, 'ParaBank.TestCases.LoginValidationTest')
+data.setCell(0, 3, 4984);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'OnlyUsername')
+data.setCell(1, 2, 'ParaBank.TestCases.LoginValidationTest')
+data.setCell(1, 3, 3181);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'InvalidUserNamePassword')
+data.setCell(2, 2, 'ParaBank.TestCases.LoginValidationTest')
+data.setCell(2, 3, 3003);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OnlyPassword')
+data.setCell(3, 2, 'ParaBank.TestCases.LoginValidationTest')
+data.setCell(3, 3, 2856);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ValidUserNamePassword')
+data.setCell(4, 2, 'ParaBank.TestCases.LoginValidationTest')
+data.setCell(4, 3, 2691);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -289,23 +335,37 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ParaBank.TestCases.HomePage_TC02</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ParaBank.TestCases.LoginValidationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">TitleOfThePageClickingOnPARABANKlogo</span>
-                <span class="method-start">10386 ms</span>
+                <span class="method-name">BlankUserNamePassword</span>
+                <span class="method-start">14975 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="test-method">
+                <span class="method-name">InvalidUserNamePassword</span>
+                <span class="method-start">19963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OnlyPassword</span>
+                <span class="method-start">22966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OnlyUsername</span>
+                <span class="method-start">25822 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">16542 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-name">ValidUserNamePassword</span>
+                <span class="method-start">29003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">31704 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
