@@ -38,6 +38,7 @@ public class BaseClass {
 		driver.register(ed);
 		driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		driver.get("https://parabank.parasoft.com/parabank/index.htm");
 	}
 	
 	@AfterClass
