@@ -2,8 +2,6 @@ package ParaBank.TestCases;
 
 import static org.testng.Assert.assertEquals;
 
-import org.openqa.selenium.By;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import ParaBank.pages.LoginPage;
@@ -59,8 +57,8 @@ public class LoginValidationTest extends BaseClass{
 	}
 	@Test
 	public void ValidUserNamePassword() {
-		loginPage.enterUsername(driver, "swara");
-		loginPage.enterPassword(driver, "Admin");
+		loginPage.enterUsername(driver, "Emma");
+		loginPage.enterPassword(driver, "eWatson");
 		loginPage.submitLogin(driver);
 		/*driver.findElement(By.name("username")).sendKeys("swara");
 		driver.findElement(By.name("password")).sendKeys("Admin");
