@@ -5,7 +5,7 @@
     <classes>
       <class name="QAProject.TravelYaari.TestCases.FindBusWithMinPrice"/>
       <class name="QAProject.TravelYaari.TestCases.FindBusWithMaxPrice"/>
-      <class name="QAProject.TravelYaari.TestCases.ChangeFromDateValidation"/>
+   <!--   <class name="QAProject.TravelYaari.TestCases.ChangeFromDateValidation"/> -->
     </classes>
   </test> <!-- CheckPrice -->
 </suite> <!-- TravelYaari Automation -->
